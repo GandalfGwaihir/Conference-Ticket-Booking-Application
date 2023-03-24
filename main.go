@@ -4,9 +4,9 @@ import "fmt"
 
 
 func main(){
-	var conferenceName string = "Go Conference"
-	const conferenceTickets int = 50
-	var remainingTickets int = 50
+	var conferenceName = "Go Conference"
+	const conferenceTickets = 50
+	var remainingTickets = 50
 
 	fmt.Printf("conferenceTickets is %T, remainingTickets is %T, conferenceName is %T \n",conferenceTickets, remainingTickets,conferenceName)
 
